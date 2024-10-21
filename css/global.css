@@ -354,7 +354,7 @@ section {
   }
 
   .hero__avatar img {
-    max-width: 400px;
+    max-width: 200px;
     border-radius: 50%;
   }
 }
