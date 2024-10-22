@@ -326,7 +326,7 @@ section {
 
 .hero__avatar img {
   width: 100%;
-  ;
+  
 }
 
 @media screen and (max-width:749px) {
@@ -356,6 +356,10 @@ section {
   .hero__avatar img {
     max-width: 200px;
     border-radius: 50%;
+    border: 10px solid blueviolet;
+    box-shadow: 0 4px 6px rgba(196, 8, 149, 0.392); /* Optionnel : ajout d'une ombre pour un effet visuel */
+    height: auto; /* Maintient le ratio de l'image */
+
   }
 }
 
